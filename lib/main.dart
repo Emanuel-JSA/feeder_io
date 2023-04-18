@@ -12,11 +12,12 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: true,
-        fontFamily:
+        fontFamily: GoogleFonts.manrope().fontFamily,
       ),
-      routes: Routes.routes(),
+      onGenerateRoute: Routes.generateRoutes,
       initialRoute: '/',
     );
   }
