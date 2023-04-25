@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:feeder_io/routes.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'package:feeder_io/theme/app_theme.dart';
 
 void main() {
   runApp(const HomePage());
@@ -13,10 +13,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        useMaterial3: true,
-        fontFamily: GoogleFonts.manrope().fontFamily,
-      ),
+      theme: AppTheme.buildThemeData(),
       onGenerateRoute: Routes.generateRoutes,
       initialRoute: '/',
     );
