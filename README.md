@@ -1,16 +1,19 @@
-# feeder_io
+# Feeder_io - A Feed Centralizer
 
-A new Flutter project.
+Feeder_io is a Flutter-based mobile application that acts as a feed centralizer. The app can fetch and display feeds from various sources like Twitter, newsletters, Reddit, RSS, and the ActivityPub protocol. Feeder_io brings all your feeds in one place so that you don't have to switch between different apps to keep up with the latest updates.
+Features
+
+- Fetch and display feeds from Twitter, newsletters, Reddit, RSS, and ActivityPub protocol.
+- Mark your favorite feeds to access them easily.
+- Search for feeds based on keywords or sources.
+- Categorize feeds and filter them based on categories.
+- Read feeds in an easy-to-use reader view.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To get started with Feeder_io, follow these steps:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Clone the repository to your local machine.
+- Install the Flutter SDK if you haven't already.
+- Run flutter pub get to install dependencies.
+- Run the app using flutter run.
